@@ -1,47 +1,49 @@
 {
-    "liability": [
-        {
-            "date": "",
-            "type": "",
-            "accCode": "",
-            "balance": ""
-        },
-        {
-            "date": "",
-            "type": "",
-            "accCode": "",
-            "balance": ""
-        },
-        {
-            "date": "",
-            "type": "",
-            "accCode": "",
-            "balance": ""
-        },
-        {
-            "date": "",
-            "type": "",
-            "accCode": "",
-            "balance": ""
-        },
-        {
-            "date": "",
-            "type": "",
-            "accCode": "",
-            "balance": ""
-        },
-        {
-            "date": "",
-            "type": "",
-            "accCode": "",
-            "balance": ""
-        },
-        {
-            "date": "",
-            "type": "",
-            "accCode": "",
-            "balance": ""
-        }
-    ],
-    "total": ""
+    "liability": {
+        "deposit": [
+            {
+                "date": "2023-01-03",
+                "type": "",
+                "accCode": "",
+                "balance": ""
+            },
+            {
+                "date": "",
+                "type": "",
+                "accCode": "",
+                "balance": ""
+            },
+            {
+                "date": "",
+                "type": "",
+                "accCode": "",
+                "balance": ""
+            },
+            {
+                "date": "",
+                "type": "",
+                "accCode": "",
+                "balance": ""
+            },
+            {
+                "date": "",
+                "type": "",
+                "accCode": "",
+                "balance": ""
+            },
+            {
+                "date": "",
+                "type": "",
+                "accCode": "",
+                "balance": ""
+            },
+            {
+                "date": "",
+                "type": "",
+                "accCode": "",
+                "balance": ""
+            }
+        ],
+        "total": ""
+    }
 }

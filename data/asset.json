@@ -1,23 +1,25 @@
 {
-    "Asset": [
-        {
-            "date": "",
-            "type": "",
-            "accCode": "",
-            "balance": ""
-        },
-        {
-            "date": "",
-            "type": "",
-            "accCode": "",
-            "balance": ""
-        },
-        {
-            "date": "",
-            "type": "",
-            "accCode": "",
-            "balance": ""
-        }
-    ],
-    "total": ""
+    "asset": {
+        "e-cash": [
+            {
+                "date": "2023-01-03",
+                "type": "",
+                "accCode": "",
+                "balance": ""
+            },
+            {
+                "date": "",
+                "type": "",
+                "accCode": "",
+                "balance": ""
+            },
+            {
+                "date": "",
+                "type": "",
+                "accCode": "",
+                "balance": ""
+            }
+        ],
+        "total": ""
+    }
 }
