@@ -18,7 +18,7 @@
           >
             Daily Affairs (Balance Sheet)
           </h1>
-          <form action="">
+          <form id="form">
             <section
               id="serach"
               class="flex justify-center bg-gray-100 mt-1 rounded drop-shadow-md"
@@ -27,13 +27,61 @@
                 Select Date
               </div>
               <div class="flex-1 text-center p-2 border-r-2">
-                <input type="date" class="px-2 rounded" />
+                <input id="date" type="date" class="px-2 rounded" />
               </div>
               <div class="flex-1 text-center p-2">
-                <input type="submit" value="Submit" />
+                <input id="submit" type="submit" value="Submit" />
               </div>
             </section>
           </form>
+          <div class="my-4">
+            <p class="text-xl">
+              Statement of Affairs as on Date : <span id="local"></span>
+            </p>
+          </div>
+          <section id="table" class="flex justify-between gap-4">
+            <table
+              id="asset"
+              class="flex-1 border-collapse border rounded border-slate-500"
+            >
+              <thead>
+                <tr class="">
+                  <th class="border border-slate-600 w-full" colspan="3">
+                    Asset
+                  </th>
+                </tr>
+                <tr class="w-full">
+                  <th class="border border-slate-600">AC Code</th>
+                  <th class="border border-slate-600">AC Name</th>
+                  <th class="border border-slate-600">Balance</th>
+                </tr>
+              </thead>
+              <tbody class="w-100"></tbody>
+            </table>
+
+            <table
+              id="asset"
+              class="flex-1 border-collapse border border-slate-500"
+            >
+              <thead>
+                <tr class="">
+                  <th
+                    class="border border-slate-600"
+                    class="w-full"
+                    colspan="3"
+                  >
+                    Liability
+                  </th>
+                </tr>
+                <tr class="w-full">
+                  <th class="border border-slate-600">AC Code</th>
+                  <th class="border border-slate-600">AC Name</th>
+                  <th class="border border-slate-600">Balance</th>
+                </tr>
+              </thead>
+              <tbody class="w-100"></tbody>
+            </table>
+          </section>
         </div>
       </div>
     </section>
