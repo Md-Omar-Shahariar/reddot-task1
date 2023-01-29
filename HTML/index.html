@@ -9,7 +9,34 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <section></section>
+    <section class="bg-gray-200 min-h-screen">
+      <div class="balancesheet p-2">
+        <div>
+          <h1
+            id="header"
+            class="text-3xl text-gray-400 bg-gray-100 pt-5 pb-2 px-2"
+          >
+            Daily Affairs (Balance Sheet)
+          </h1>
+          <form action="">
+            <section
+              id="serach"
+              class="flex justify-center bg-gray-100 mt-1 rounded drop-shadow-md"
+            >
+              <div class="flex-1 text-xl text-center p-2 border-r-2">
+                Select Date
+              </div>
+              <div class="flex-1 text-center p-2 border-r-2">
+                <input type="date" class="px-2 rounded" />
+              </div>
+              <div class="flex-1 text-center p-2">
+                <input type="submit" value="Submit" />
+              </div>
+            </section>
+          </form>
+        </div>
+      </div>
+    </section>
     <script src="../JS/script.js"></script>
   </body>
 </html>
